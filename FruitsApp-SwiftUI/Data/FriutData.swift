@@ -9,7 +9,7 @@ import SwiftUI
 
 //MARK: - Fruits Data
 
-let friutsData: [Fruit] = [
+let fruitsData: [Fruit] = [
     Fruit(
         title: "Blueberry",
         headline: "Blueberries are sweet, nutritious and wildly popular fruit all over the world.",
