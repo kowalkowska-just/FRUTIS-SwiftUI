@@ -19,6 +19,7 @@
 		D13324E32661108C00033B0E /* FruitDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D13324E22661108C00033B0E /* FruitDetailView.swift */; };
 		D13324E72661188300033B0E /* FruitHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D13324E62661188300033B0E /* FruitHeaderView.swift */; };
 		D13324E926617EA900033B0E /* SourceLinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D13324E826617EA900033B0E /* SourceLinkView.swift */; };
+		D13324EB266181DD00033B0E /* FruitNutrientsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D13324EA266181DD00033B0E /* FruitNutrientsView.swift */; };
 		D138137F265EEDE500BADEBA /* FruitCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D138137E265EEDE500BADEBA /* FruitCardView.swift */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +38,7 @@
 		D13324E22661108C00033B0E /* FruitDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitDetailView.swift; sourceTree = "<group>"; };
 		D13324E62661188300033B0E /* FruitHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitHeaderView.swift; sourceTree = "<group>"; };
 		D13324E826617EA900033B0E /* SourceLinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceLinkView.swift; sourceTree = "<group>"; };
+		D13324EA266181DD00033B0E /* FruitNutrientsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitNutrientsView.swift; sourceTree = "<group>"; };
 		D138137E265EEDE500BADEBA /* FruitCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitCardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -124,6 +126,7 @@
 				D13324E22661108C00033B0E /* FruitDetailView.swift */,
 				D13324E62661188300033B0E /* FruitHeaderView.swift */,
 				D13324E826617EA900033B0E /* SourceLinkView.swift */,
+				D13324EA266181DD00033B0E /* FruitNutrientsView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -201,6 +204,7 @@
 				D13324E926617EA900033B0E /* SourceLinkView.swift in Sources */,
 				D138137F265EEDE500BADEBA /* FruitCardView.swift in Sources */,
 				D13324E126610AB400033B0E /* FruitRowView.swift in Sources */,
+				D13324EB266181DD00033B0E /* FruitNutrientsView.swift in Sources */,
 				D103BA8C265F027800C41CF8 /* StartButtonView.swift in Sources */,
 				D13324E32661108C00033B0E /* FruitDetailView.swift in Sources */,
 				D131C630265D94A600FF3117 /* ContentView.swift in Sources */,
