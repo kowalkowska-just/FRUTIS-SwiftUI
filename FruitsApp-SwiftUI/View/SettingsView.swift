@@ -43,6 +43,22 @@ struct SettingsView: View {
                     
                     //MARK: - Section 3
                     
+                    GroupBox(
+                        label:
+                            SettingsLabelView(labelText: "Application", labelImage: "apps.iphone")
+                    ) {
+                        
+                        SettingsRowView(name: "Developer", content: "Justyna Kowalkowska")
+                        SettingsRowView(name: "Designer", content: "Careflee")
+                        SettingsRowView(name: "Compatibility", content: "iOS 14")
+                        SettingsRowView(name: "GitHub", linkLabel: "kowalkowska-just", linkDestination: "github.com/kowalkowska-just")
+                        SettingsRowView(name: "Linkedin", linkLabel: "@JustynaKowalkowska", linkDestination: "www.linkedin.com/in/justyna-kowalkowska-18747a110/")
+                        SettingsRowView(name: "SwiftUI", content: "2.0")
+                        SettingsRowView(name: "Version", content: "1.1.0")
+                    }
+                        
+                    }
+                    
                 } //: VStack
                 .navigationBarTitle(Text("Settings"), displayMode: .large)
                 .navigationBarItems(trailing: Button(action: {
@@ -53,8 +69,8 @@ struct SettingsView: View {
                 .padding()
             } //: Scroll View
         } //: Navigation
-    }
 }
+
 
 //MARK: - Preview
 
